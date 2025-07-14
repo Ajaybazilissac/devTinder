@@ -2,12 +2,16 @@ const express = require("express");
 
 const app = express();
 
-app.use("/", (req, res) => {
-  res.send("Namste from Dashboard");
+app.get("/user", (req, res) => {
+  res.send({ firstname: "Ajay", lastname: "Issac" });
 });
 
-app.use("/hello", (req, res) => {
-  res.send("Hello Hello Hello!");
+app.post("/user", (req, res) => {
+  console.log("Save Data to the database");
+  res.send("Data successfully saved to the database.");
+});
+app.delete("/user", (req, res) => {
+  res.send("Deleted successfully.");
 });
 
 app.use("/test", (req, res) => {
