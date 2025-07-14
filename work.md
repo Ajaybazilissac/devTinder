@@ -18,3 +18,6 @@
 - oder of the routes matter a lot
 - Install postman app and make a workspace/collection > test API call
 - Write logic to handle GET,POST,PATCH,DELETE API calls and test them in postman
+- explore routing and use of ?,_,(),_ in the routes
+- Use of regex in routes /a/, /.\*fly$/
+- Reading the dynamic routes
