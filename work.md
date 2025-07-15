@@ -32,3 +32,12 @@
 - Write a dummy auth middleware for admin
 - Write a dummy auth middleware for all user routes, except /use/login
 - Error handling using app.use("/", (err, req, res, next)={}
+
+- Create a free cluster on mongoDB official website(mongoAtlas)
+- install mongoose library
+- Connect the application to the Database "Connection-url"/devTinder
+- Call th connectDB function and connect to database befor starting application on 3000
+- Create a user schema & user model
+- Create POST /signup API to add to database
+- Push some documents using API calls from postman
+- Error handling using try catch
